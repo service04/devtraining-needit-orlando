@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Incident Management" max_length="40" name="x_58872_needit_incident_management" sizeclass="3" type="collection">
+    <element extends="task" label="Incident Management" max_length="40" name="x_58872_needit_incident_management" sizeclass="5" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Status" max_length="40" name="u_approve_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
                 <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Assignee email" mandatory="true" max_length="100" name="u_assigned_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assignee email" max_length="100" name="u_assigned_email" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date create" mandatory="true" max_length="40" name="u_date_create" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" dependent="assignment_group" dependent_on_field="assignment_group" label="Reporter" mandatory="true" max_length="32" name="u_reporter" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element attributes="edge_encryption_enabled=true" label="Reporter email" mandatory="true" max_length="100" name="u_reporter_email" type="string"/>
+        <element attributes="encode_utf8=false" dependent="assignment_group" dependent_on_field="assignment_group" label="Reporter" max_length="32" name="u_reporter" read_only="true" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Reporter email" max_length="100" name="u_reporter_email" read_only="true" type="string"/>
         <element label="Total Date Submit" max_length="40" name="u_total_date" read_only="true" type="integer"/>
     </element>
 </database>

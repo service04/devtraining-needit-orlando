@@ -3,38 +3,50 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Set the current date to the Date create field for new records.</description>
+        <description/>
         <field>active</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Load Date create Field</name>
+        <name>Load Total Date Submit Field</name>
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   if(g_form.isNewRecord()){
+   if(!g_form.isNewRecord() && (g_form.getValue('state') == 3)){
         //Get sysdate and format to "YYYY-MM-DD hh:mi:ss"
         var currentTime = new Date();
         currentTime = formatDate(new Date(), g_user_date_time_format);
         
-        g_form.setValue('u_date_create',currentTime);
+        setTimeout(function(){
+        //do what you need here
+        }, 5000);
+        var x = g_form.getValue('u_date_create');
+        var y = g_form.getValue('state');
+        
+        const utc1 = Date.UTC(x.getFullYear(), x.getMonth(), x.getDate());
+        const utc2 = Date.UTC(currentTime.getFullYear(), currentTime.getMonth(), currentTime.getDate());
+        var diffDate = Math.floor((utc2 - utc1) / (1000 * 60 * 60 * 24));
+
+        g_form.setValue('u_total_date', diffDate);
+        var newstring = x + "\n" + currentTime + "\n" + y; 
+        g_form.setValue('description', newstring);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-01 03:16:40</sys_created_on>
+        <sys_created_on>2020-07-01 07:01:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>245f51a407395010221af6fd7c1ed055</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Load Date create Field</sys_name>
+        <sys_id>da3292e407b95010221af6fd7c1ed071</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Load Total Date Submit Field</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_client_245f51a407395010221af6fd7c1ed055</sys_update_name>
+        <sys_update_name>sys_script_client_da3292e407b95010221af6fd7c1ed071</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 03:54:47</sys_updated_on>
+        <sys_updated_on>2020-07-01 09:35:58</sys_updated_on>
         <table>x_58872_needit_incident_management</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

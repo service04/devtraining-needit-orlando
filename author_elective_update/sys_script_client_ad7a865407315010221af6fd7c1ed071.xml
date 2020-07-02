@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the total date create for new records.</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Load Total Date Create Field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+if(g_form.getValue('u_total_date')== '')
+{
+g_form.setValue('u_total_date','0');
+}
+else 
+{
+var enddate = new date();
+var total = abs(enddate - g_form.getValue('u_total_date'));
+Math.floor(total / (60*60*24));
+}
+	// Do your operations	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:44:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad7a865407315010221af6fd7c1ed071</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Load Total Date Create Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_ad7a865407315010221af6fd7c1ed071</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 01:54:46</sys_updated_on>
+        <table>x_58872_needit_incident_management</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>7dded6f5dbc3401842b321c4059619db</instance_id>
+        <instance_name>dev101348</instance_name>
+        <name>sys_script_client_ad7a865407315010221af6fd7c1ed071</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Set the total date create for new records.&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Load Total Date Create Field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+if(g_form.getValue('u_total_date')== '')
+{
+g_form.setValue('u_total_date','0');
+}
+else 
+{
+var enddate = new date();
+var total = abs(enddate - g_form.getValue('u_total_date'));
+Math.floor(total / (60*60*24));
+}
+	// Do your operations	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-30 11:44:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ad7a865407315010221af6fd7c1ed071&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Load Total Date Create Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ad7a865407315010221af6fd7c1ed071&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-01 01:54:46&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_incident_management&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1405709358</payload_hash>
+        <record_name>Load Total Date Create Field</record_name>
+        <reverted_from/>
+        <source>a3b3c2dc07fd1010221af6fd7c1ed083</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 01:54:46</sys_created_on>
+        <sys_id>fb6dc16807f55010221af6fd7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173081563330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 01:54:46</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>376dc1689ef55010b190d450ef252035</update_guid>
+        <update_guid_history>376dc1689ef55010b190d450ef252035:1405709358,db4562d01a715010ad9f725e6c19aacd:-1694595920,ee056e5441715010b72ec75b50abe89d:-1844548160,60c46690db715010c13cb38f6c6438a7:-639106232,9c5d8ad41f315010c4356a46b305b943:1424235004,2cebca94df315010508ada089e4cc18a:-2025852229,f59b0a94c8315010c6e386a9b3b7a70c:-642601074,677b4254cf315010ce40560983cbfd25:-1073094885,b62bc294bc315010b251e818b6ef1e55:297278207,aada86546f315010271c93f707d68454:-536908978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 04:15:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5cfdc3a06269426eb34c3615941c8244</sys_id>
+        <sys_metadata>ad7a865407315010221af6fd7c1ed071</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Load Total Date Create Field</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident Management">79c3825007315010221af6fd7c1ed052</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_ad7a865407315010221af6fd7c1ed071</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ad7a865407315010221af6fd7c1ed071">fb6dc16807f55010221af6fd7c1ed035</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 04:15:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
