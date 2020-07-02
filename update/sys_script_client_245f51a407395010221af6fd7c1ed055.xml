@@ -13,9 +13,9 @@
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
    if(g_form.isNewRecord()){
-        //Get sysdate and format to "YYYY-MM-DD hh:mi:ss"
+        //Get sysdate and format to "YYYY-MM-DD hh:m:ss"
         var currentTime = new Date();
-        currentTime = formatDate(new Date(), g_user_date_time_format);
+        currentTime = formatDate(new Date(), "yyyy-MM-dd HH:m:ss");
         
         g_form.setValue('u_date_create',currentTime);
     }
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>245f51a407395010221af6fd7c1ed055</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Load Date create Field</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_245f51a407395010221af6fd7c1ed055</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 03:54:47</sys_updated_on>
+        <sys_updated_on>2020-07-02 10:45:50</sys_updated_on>
         <table>x_58872_needit_incident_management</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_date_create" table="x_58872_needit_incident_management">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_end_date" table="x_58872_needit_incident_management">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Date Create</column_label>
+        <column_label>New Date/Time</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_date_create</element>
+        <element>u_end_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -33,7 +33,7 @@
         <name>x_58872_needit_incident_management</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-30 11:25:51</sys_created_on>
-        <sys_id>2786ce9007315010221af6fd7c1ed07e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Date Create</sys_name>
+        <sys_created_on>2020-07-02 06:23:22</sys_created_on>
+        <sys_id>5c84d37c07b59010221af6fd7c1ed086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Date/Time</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_incident_management_u_date_create</sys_update_name>
+        <sys_update_name>sys_dictionary_x_58872_needit_incident_management_u_end_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-02 11:37:40</sys_updated_on>
+        <sys_updated_on>2020-07-02 06:23:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
