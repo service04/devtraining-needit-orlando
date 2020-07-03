@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Incident Management" max_length="40" name="x_58872_needit_incident_management" sizeclass="80" type="collection">
+    <element extends="task" label="Incident Management" max_length="40" name="x_58872_needit_incident_management" sizeclass="97" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Date Closed" max_length="40" name="enddate" read_only="true" type="glide_date_time"/>
         <element label="total" max_length="40" name="total" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Total" max_length="1000" name="totaldate" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total date create" max_length="1000" name="totaldate" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Status" max_length="40" name="u_approve_status" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>

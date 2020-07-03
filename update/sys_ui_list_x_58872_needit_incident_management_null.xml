@@ -3,137 +3,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>e4699b3007f59010221af6fd7c1ed0cd</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>8d50a41907f1d010221af6fd7c1ed04a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_reporter</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>6c699b3007f59010221af6fd7c1ed0cd</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>0550a41907f1d010221af6fd7c1ed04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_reporter_email</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>ec699b3007f59010221af6fd7c1ed0cd</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>8550a41907f1d010221af6fd7c1ed04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_date_create</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>60699b3007f59010221af6fd7c1ed0ce</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>0950a41907f1d010221af6fd7c1ed04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>enddate</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>e0699b3007f59010221af6fd7c1ed0ce</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>8950a41907f1d010221af6fd7c1ed04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>64699b3007f59010221af6fd7c1ed0ce</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>0d50a41907f1d010221af6fd7c1ed04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>e4699b3007f59010221af6fd7c1ed0ce</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>8d50a41907f1d010221af6fd7c1ed04b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_assigned_email</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>68699b3007f59010221af6fd7c1ed0ce</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>0150a41907f1d010221af6fd7c1ed04c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>description</element>
-            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68699b3007f59010221af6fd7c1ed0cc</list_id>
+            <element>totaldate</element>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
-            <sys_id>e8699b3007f59010221af6fd7c1ed0ce</sys_id>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>8150a41907f1d010221af6fd7c1ed04c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_58872_needit_incident_management" element="NULL" name="x_58872_needit_incident_management" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4d50a41907f1d010221af6fd7c1ed048</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
+            <sys_id>0550a41907f1d010221af6fd7c1ed04c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -147,10 +162,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-02 06:44:42</sys_created_on>
+            <sys_created_on>2020-07-03 06:33:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>68699b3007f59010221af6fd7c1ed0cc</sys_id>
+            <sys_id>4d50a41907f1d010221af6fd7c1ed048</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_58872_needit_incident_management</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -158,7 +173,7 @@
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_ui_list_x_58872_needit_incident_management_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-02 06:44:42</sys_updated_on>
+            <sys_updated_on>2020-07-03 06:33:08</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
