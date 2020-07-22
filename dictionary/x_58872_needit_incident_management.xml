@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Incident Management" max_length="40" name="x_58872_needit_incident_management" sizeclass="6" type="collection">
+    <element extends="task" label="Incident Management" max_length="40" name="x_58872_needit_incident_management" sizeclass="18" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Closed Date" max_length="40" name="enddate" read_only="true" type="glide_date_time"/>
         <element label="total" max_length="40" name="total" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Processing Days" max_length="1000" name="totaldate" read_only="true" type="string"/>
